@@ -36,6 +36,9 @@ public class DriverLib {
 
 	}
 
+	
+	
+	
 	public browserTypes getState(String browserType) {
 		if ("Firefox".equalsIgnoreCase(browserType)) {
 			return browserTypes.FIREFOX;
@@ -48,6 +51,18 @@ public class DriverLib {
 		}
 	}
 
+	
+	
+	/**
+	 * Checks if is element present.
+	 *
+	 * @name setDriver
+	 * @description This will initiate the browser driver
+	 * @author Vaibhav Narkhede
+	 * @param NA ||description: NA ||allowedRange:
+	 * @return NA
+	 * @jiraId
+	 */
 	public void setDriver() {
 		try {
 			switch (getState(browser)) {
