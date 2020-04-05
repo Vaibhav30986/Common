@@ -35,7 +35,7 @@ public class BaseTest {
 
 	@BeforeSuite
 	public void initializeExtentReport() {
-	
+		//extent report
 		try {
 		util = new Util();
 		util.CreatePropertyfile();
