@@ -11,7 +11,7 @@ public class ExtentReportClass {
 	public static ExtentTest logger;
 	public ExtentReportClass(String TestTitle) {
 
-		
+		//Reporter Code
 		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/test-output/ABSExtentReport.html");
 		htmlReporter.config().enableTimeline(false);
 		htmlReporter.config().setDocumentTitle("AUTOMATION");
