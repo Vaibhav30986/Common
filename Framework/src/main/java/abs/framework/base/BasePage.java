@@ -41,7 +41,7 @@ public class BasePage {
 	DriverLib browserLib;
 	public ExtentReportClass extentReport;
 	public static int DEFAULT_TIMEOUT;
-
+	//This is contructor of Base Page class
 	public BasePage() {
 		baseTest = new BaseTest();
 		BasePage.driver = baseTest.getDriver();
