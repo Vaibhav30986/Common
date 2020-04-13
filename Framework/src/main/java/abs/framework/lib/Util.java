@@ -48,7 +48,7 @@ public class Util {
 	 * @name CreatePropertyfile
 	 * @description create the properties file
 	 * @author Vaibhav Narkhede
-	 * @param NA ||description: NA ||allowedRange :
+	 * @param NA ||description: NA ||allowedRange:
 	 * @return NA
 	 * @jiraId
 	 */
