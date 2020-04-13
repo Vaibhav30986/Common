@@ -53,7 +53,7 @@ public class Util {
 	 * @jiraId
 	 */
 	public void CreatePropertyfile() {
-		File file = new File(System.getProperty("user.dir") + "\\Configuration\\config.properties");
+		File file = new File(System.getProperty("user.dir") + "\\configuration\\config.properties");
 
 		FileInputStream fileInput = null;
 
