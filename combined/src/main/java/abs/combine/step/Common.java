@@ -6,6 +6,7 @@ import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 
 import abs.combined.page.CommonPage;
+import abs.combined.page.WorkRequestPage;
 import abs.framework.base.BasePage;
 import abs.framework.lib.Util;
 import abs.framework.logger.ScreenShots;
@@ -14,9 +15,11 @@ import abs.framework.logger.ScreenShots;
 public class Common extends BasePage {
 
 	CommonPage commonPage;
+	WorkRequestPage workRequestPage;
 
 	public Common() {
 		commonPage = new CommonPage();
+		workRequestPage = new WorkRequestPage();
 	}
 
 	
