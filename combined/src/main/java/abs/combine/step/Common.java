@@ -21,7 +21,7 @@ public class Common extends BasePage {
 
 	
 	/**
-	 * loginFreedom <test>
+	 * loginFreedom <test , This is vaiabhav">
 	 *
 	 * @name loginFreedom
 	 * @description Login to freedom applcation
