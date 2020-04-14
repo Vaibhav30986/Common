@@ -43,6 +43,8 @@ public class Common extends BasePage {
 			
 	
 			BasePage.refreshPage();
+			BasePage.refreshPage();
+			BasePage.refreshPage();
 
 			openURL(prop.getProperty("env.wr.url"));
 
