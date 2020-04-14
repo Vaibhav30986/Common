@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="61119" started-at="2020-04-14T08:14:45Z" finished-at="2020-04-14T08:15:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="61119" started-at="2020-04-14T08:14:45Z" finished-at="2020-04-14T08:15:46Z">
+      <class name="abs.quote.feature.FEQ50_51_46">
+        <test-method status="PASS" signature="initializeExtentReport()[pri:0, instance:abs.quote.feature.FEQ50_51_46@475530b9]" name="initializeExtentReport" is-config="true" duration-ms="201" started-at="2020-04-14T13:44:45Z" finished-at="2020-04-14T13:44:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeExtentReport -->
+        <test-method status="PASS" signature="driverInitated()[pri:0, instance:abs.quote.feature.FEQ50_51_46@475530b9]" name="driverInitated" is-config="true" duration-ms="3246" started-at="2020-04-14T13:44:45Z" finished-at="2020-04-14T13:44:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitated -->
+        <test-method status="PASS" signature="initializeSnapshot()[pri:0, instance:abs.quote.feature.FEQ50_51_46@475530b9]" name="initializeSnapshot" is-config="true" duration-ms="1" started-at="2020-04-14T13:44:48Z" finished-at="2020-04-14T13:44:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeSnapshot -->
+        <test-method status="PASS" signature="createLogger()[pri:0, instance:abs.quote.feature.FEQ50_51_46@475530b9]" name="createLogger" is-config="true" duration-ms="3" started-at="2020-04-14T13:44:48Z" finished-at="2020-04-14T13:44:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLogger -->
+        <test-method status="PASS" signature="initializeDBConnection()[pri:0, instance:abs.quote.feature.FEQ50_51_46@475530b9]" name="initializeDBConnection" is-config="true" duration-ms="6" started-at="2020-04-14T13:44:48Z" finished-at="2020-04-14T13:44:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDBConnection -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:abs.quote.feature.FEQ50_51_46@475530b9]" name="beforeMethod" is-config="true" duration-ms="9" started-at="2020-04-14T13:44:48Z" finished-at="2020-04-14T13:44:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateNaviagtion()[pri:0, instance:abs.quote.feature.FEQ50_51_46@475530b9]" name="validateNaviagtion" duration-ms="57836" started-at="2020-04-14T13:44:48Z" finished-at="2020-04-14T13:45:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNaviagtion -->
+        <test-method status="PASS" signature="closeBrowserInstance()[pri:0, instance:abs.quote.feature.FEQ50_51_46@475530b9]" name="closeBrowserInstance" is-config="true" duration-ms="0" started-at="2020-04-14T13:45:46Z" finished-at="2020-04-14T13:45:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserInstance -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:abs.quote.feature.FEQ50_51_46@475530b9]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-04-14T13:45:46Z" finished-at="2020-04-14T13:45:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="reportEnd()[pri:0, instance:abs.quote.feature.FEQ50_51_46@475530b9]" name="reportEnd" is-config="true" duration-ms="386" started-at="2020-04-14T13:45:46Z" finished-at="2020-04-14T13:45:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportEnd -->
+      </class> <!-- abs.quote.feature.FEQ50_51_46 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
