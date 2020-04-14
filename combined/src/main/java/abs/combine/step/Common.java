@@ -23,6 +23,7 @@ public class Common extends BasePage {
 		workRequestPage = new WorkRequestPage();
 		common = new Common();
 		common1 = new Common();
+
 		System.out.println("Vaibhav - Commited");
 		System.out.println("Vaibhav - Commited");
 		System.out.println("Vaibhav - Commited");
@@ -33,6 +34,9 @@ public class Common extends BasePage {
 		
 		
 		
+
+		System.out.println("Gyan Commit");
+
 	}
 
 	
@@ -54,6 +58,8 @@ public class Common extends BasePage {
 			
 			
 	
+			BasePage.refreshPage();
+			BasePage.refreshPage();
 			BasePage.refreshPage();
 
 			openURL(prop.getProperty("env.wr.url"));
