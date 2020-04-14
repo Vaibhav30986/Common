@@ -17,10 +17,12 @@ public class Common extends BasePage {
 	CommonPage commonPage;
 	WorkRequestPage workRequestPage;
     Common common;
+    Common common1;
 	public Common() {
 		commonPage = new CommonPage();
 		workRequestPage = new WorkRequestPage();
 		common = new Common();
+		common1 = new Common();
 	}
 
 	
