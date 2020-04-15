@@ -25,4 +25,9 @@ public class LoginPage extends BasePage {
 		
 	}
 
+	private void syos1() {
+		// TODO Auto-generated method stub
+// I am adding a method - by vaibhav
+	}
+	
 }
