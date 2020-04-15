@@ -13,5 +13,10 @@ public class LoginPage extends BasePage {
 	public By password = By.xpath("//input[@type='password']");
 	
 	public By loginButton = By.xpath("//button[@type='button']");
+	
+	private void syso() {
+		// TODO Auto-generated method stub
+       // i am adding a method
+	}
 
 }
