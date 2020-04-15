@@ -18,5 +18,11 @@ public class LoginPage extends BasePage {
 		// TODO Auto-generated method stub
        // i am adding a method
 	}
+	
+	
+	public void add() {
+		// Added by Sneha
+		
+	}
 
 }
