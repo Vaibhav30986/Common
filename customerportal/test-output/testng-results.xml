@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="96277" started-at="2020-04-13T13:05:17Z" finished-at="2020-04-13T13:06:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="96277" started-at="2020-04-13T13:05:17Z" finished-at="2020-04-13T13:06:53Z">
+      <class name="org.customerportal.test.sanity.LoginFunctionalityValidation">
+        <test-method status="PASS" signature="initializeExtentReport()[pri:0, instance:org.customerportal.test.sanity.LoginFunctionalityValidation@3abbfa04]" name="initializeExtentReport" is-config="true" duration-ms="156" started-at="2020-04-13T13:05:17Z" finished-at="2020-04-13T13:05:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeExtentReport -->
+        <test-method status="PASS" signature="driverInitated()[pri:0, instance:org.customerportal.test.sanity.LoginFunctionalityValidation@3abbfa04]" name="driverInitated" is-config="true" duration-ms="2997" started-at="2020-04-13T13:05:17Z" finished-at="2020-04-13T13:05:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitated -->
+        <test-method status="PASS" signature="initializeSnapshot()[pri:0, instance:org.customerportal.test.sanity.LoginFunctionalityValidation@3abbfa04]" name="initializeSnapshot" is-config="true" duration-ms="1" started-at="2020-04-13T13:05:20Z" finished-at="2020-04-13T13:05:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeSnapshot -->
+        <test-method status="PASS" signature="createLogger()[pri:0, instance:org.customerportal.test.sanity.LoginFunctionalityValidation@3abbfa04]" name="createLogger" is-config="true" duration-ms="2" started-at="2020-04-13T13:05:20Z" finished-at="2020-04-13T13:05:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLogger -->
+        <test-method status="PASS" signature="initializeDBConnection()[pri:0, instance:org.customerportal.test.sanity.LoginFunctionalityValidation@3abbfa04]" name="initializeDBConnection" is-config="true" duration-ms="3990" started-at="2020-04-13T13:05:20Z" finished-at="2020-04-13T13:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDBConnection -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.customerportal.test.sanity.LoginFunctionalityValidation@3abbfa04]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2020-04-13T13:05:24Z" finished-at="2020-04-13T13:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:org.customerportal.test.sanity.LoginFunctionalityValidation@3abbfa04]" name="loginTest" duration-ms="89266" started-at="2020-04-13T13:05:24Z" finished-at="2020-04-13T13:06:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.customerportal.test.sanity.LoginFunctionalityValidation@3abbfa04]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-04-13T13:06:53Z" finished-at="2020-04-13T13:06:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="closeBrowserInstance()[pri:0, instance:org.customerportal.test.sanity.LoginFunctionalityValidation@3abbfa04]" name="closeBrowserInstance" is-config="true" duration-ms="0" started-at="2020-04-13T13:06:53Z" finished-at="2020-04-13T13:06:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserInstance -->
+        <test-method status="PASS" signature="reportEnd()[pri:0, instance:org.customerportal.test.sanity.LoginFunctionalityValidation@3abbfa04]" name="reportEnd" is-config="true" duration-ms="316" started-at="2020-04-13T13:06:53Z" finished-at="2020-04-13T13:06:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportEnd -->
+      </class> <!-- org.customerportal.test.sanity.LoginFunctionalityValidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
