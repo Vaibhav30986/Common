@@ -21,7 +21,7 @@ public class LoginPage extends BasePage {
 	
 	
 	public void add() {
-		// Added by Sneha
+		// Added by Sneha1
 		
 	}
 
