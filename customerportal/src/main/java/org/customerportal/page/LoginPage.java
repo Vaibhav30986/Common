@@ -14,20 +14,13 @@ public class LoginPage extends BasePage {
 	
 	public By loginButton = By.xpath("//button[@type='button']");
 	
-	private void syso() {
-		// TODO Auto-generated method stub
-       // i am adding a method
-	}
-	
-	
-	public void add() {
-		// Added by Sneha1
-		
-	}
-
-	private void syos1() {
-		// TODO Auto-generated method stub
-// I am adding a method - by vaibhav
-	}
+	//---Added by Sneha on 16th April
+    public static void addition()
+    {
+    	//---additing two numbers
+    	int num1=3;
+    	int num2=5;
+    	int sum=num1+num2;
+    }
 	
 }
