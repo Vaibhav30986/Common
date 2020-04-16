@@ -17,7 +17,7 @@ public class LoginPage extends BasePage {
 	//---Added by Sneha on 16th April
     public static void addition()
     {
-    	//---additing two numbers
+    	//---additing numbers
     	int num1=3;
     	int num2=5;
     	int sum=num1+num2;
