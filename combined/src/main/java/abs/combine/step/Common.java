@@ -24,6 +24,7 @@ public class Common extends BasePage {
              common = new Common();
              common1 = new Common();
              System.out.println("Gyan Commit");
+             System.out.println("Vaibhav Commited");
        }
 
        
