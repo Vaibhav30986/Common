@@ -19,8 +19,13 @@ public class LoginStepDef {
 	WebDriver driver;
 	
 	
+	
+	
 	@Given("Open Chrome and start my application")
 	public void open_Chrome_and_start_my_application() {
+		
+		System.out.println("First commit");
+		System.out.println("Vaihav commit");
 	    // Write code here that turns the phrase above into concrete actions
 		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "\\driver\\chromedriver.exe");
 		ChromeOptions chromeOptions = new ChromeOptions();
