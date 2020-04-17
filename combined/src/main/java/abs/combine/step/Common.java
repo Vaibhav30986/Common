@@ -23,31 +23,10 @@ public class Common extends BasePage {
              commonPage = new CommonPage();
              workRequestPage = new WorkRequestPage();
              common = new Common();
-             common1 = new Common();
-             System.out.println("Gyan Commit");
-             System.out.println("Vaibhav Commited");
+        
        }
 
-	public Common() {
-		commonPage = new CommonPage();
-		workRequestPage = new WorkRequestPage();
-		common = new Common();
-		common1 = new Common();
 
-		System.out.println("Vaibhav - Commited");
-		System.out.println("Vaibhav - Commited");
-		System.out.println("Vaibhav - Commited");
-		System.out.println("Vaibhav - Commited");
-		System.out.println("Vaibhav - Commited");
-		System.out.println("Vaibhav - Commited");
-		System.out.println("Vaibhav - Commited");
-		
-		
-		
-
-		System.out.println("Gyan Commit");
-
-	}
 
 	
 	/**
