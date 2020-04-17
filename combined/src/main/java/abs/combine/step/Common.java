@@ -14,10 +14,11 @@ import abs.framework.logger.ScreenShots;
 
 public class Common extends BasePage {
 
-       CommonPage commonPage;
-       WorkRequestPage workRequestPage;
+	CommonPage commonPage;
+	WorkRequestPage workRequestPage;
     Common common;
     Common common1;
+
        public Common() {
              commonPage = new CommonPage();
              workRequestPage = new WorkRequestPage();
@@ -27,182 +28,201 @@ public class Common extends BasePage {
              System.out.println("Vaibhav Commited");
        }
 
-       
-       /**
-       * loginFreedom <test , This is vaiabhav">
-       *
-       * @name loginFreedom
-       * @description Login to freedom applcation
-       * @author Vaibhav Narkhede
-       * @param  ||description: 
-        *                 ||allowedRange:
-       * @return void ||description:
-       * @jiraId
-       */
-       
-       public void loginFreedom() {
+	public Common() {
+		commonPage = new CommonPage();
+		workRequestPage = new WorkRequestPage();
+		common = new Common();
+		common1 = new Common();
 
-             try {
-                    
-                    
-       
-                    BasePage.refreshPage();
-                    BasePage.refreshPage();
-                    BasePage.refreshPage();
+		System.out.println("Vaibhav - Commited");
+		System.out.println("Vaibhav - Commited");
+		System.out.println("Vaibhav - Commited");
+		System.out.println("Vaibhav - Commited");
+		System.out.println("Vaibhav - Commited");
+		System.out.println("Vaibhav - Commited");
+		System.out.println("Vaibhav - Commited");
+		
+		
+		
 
-                    openURL(prop.getProperty("env.wr.url"));
+		System.out.println("Gyan Commit");
 
-                    BasePage.refreshPage();
+	}
 
-                    BasePage.sendKeys(commonPage.loginUserName, prop.getProperty("env.wr.username"));
-                    // driver.findElement(commonPage.loginUserName).sendKeys(prop.getProperty("env.username"));
-                    logger.info("Entered UserName");
+	
+	/**
+	 * loginFreedom <test , This is vaiabhav">
+	 *
+	 * @name loginFreedom
+	 * @description Login to freedom applcation
+	 * @author Vaibhav Narkhede
+	 * @param  ||description: 
+	 *                 ||allowedRange:
+	 * @return void ||description:
+	 * @jiraId
+	 */
+	
+	public void loginFreedom() {
 
-                    BasePage.sendKeys(commonPage.loginPwd, Util.decryptString(prop.getProperty("env.wr.password")));
-                    // driver.findElement(commonPage.loginPwd).sendKeys(Util.decryptString(prop.getProperty("env.password")));
+		try {
+			
+			
+	
+			BasePage.refreshPage();
+			BasePage.refreshPage();
+			BasePage.refreshPage();
 
-                    logger.info("Entering password");
+			openURL(prop.getProperty("env.wr.url"));
 
-                    BasePage.click(commonPage.loginSubmit);
+			BasePage.refreshPage();
 
-                    // driver.findElement(commonPage.loginSubmit).click();
-                    logger.info("Clicking on Submit button");
+			BasePage.sendKeys(commonPage.loginUserName, prop.getProperty("env.wr.username"));
+			// driver.findElement(commonPage.loginUserName).sendKeys(prop.getProperty("env.username"));
+			logger.info("Entered UserName");
 
-                    // logger.log(Status.PASS, "Login to Freedom is succussful.");
+			BasePage.sendKeys(commonPage.loginPwd, Util.decryptString(prop.getProperty("env.wr.password")));
+			// driver.findElement(commonPage.loginPwd).sendKeys(Util.decryptString(prop.getProperty("env.password")));
 
-                    logger.pass("Login Successful", MediaEntityBuilder
-                                  .createScreenCaptureFromPath(ScreenShots.getScreenShot()).build());
-                    
+			logger.info("Entering password");
 
-             } catch (Exception e) {
-                    logger.error(e.getMessage());
+			BasePage.click(commonPage.loginSubmit);
 
-             }
+			// driver.findElement(commonPage.loginSubmit).click();
+			logger.info("Clicking on Submit button");
 
-       }
+			// logger.log(Status.PASS, "Login to Freedom is succussful.");
 
-       
-       /**
-       * logout
-       *
-       * @name logout
-       * @description logout to freedom application
-       * @author Vaibhav Narkhede
-       * @param  ||description: 
-        *                 ||allowedRange:
-       * @return void ||description:
-       * @jiraId
-       */
-       
-       public void logout() {
+			logger.pass("Login Successful", MediaEntityBuilder
+					.createScreenCaptureFromPath(ScreenShots.getScreenShot()).build());
+			
 
-             try {
-                    // wait.until(ExpectedConditions.visibilityOfElementLocated(commonPage.LogoutIcon)).click();
-                    // wait.until(ExpectedConditions.visibilityOfElementLocated(commonPage.Logout)).click();
+		} catch (Exception e) {
+			logger.error(e.getMessage());
 
-                    BasePage.click(commonPage.LogoutIcon);
-                    BasePage.click(commonPage.Logout);
-                    logger.info("Logout");
+		}
 
-             } catch (Exception e) {
-                    e.printStackTrace();
-             }
-       }
+	}
 
-       
-       /**
-       * openURL
-       *
-       * @name openURL
-       * @description open the URL 
-        * @author Vaibhav Narkhede
-       * @param  URL ||description: URL which want to open
-       *                 ||allowedRange:
-       * @return void ||description:
-       * @jiraId
-       */
-       
-       public void openURL(String url) {
+	
+	/**
+	 * logout
+	 *
+	 * @name logout
+	 * @description logout to freedom application
+	 * @author Vaibhav Narkhede
+	 * @param  ||description: 
+	 *                 ||allowedRange:
+	 * @return void ||description:
+	 * @jiraId
+	 */
+	
+	public void logout() {
 
-             try {
-             driver.get(url);
+		try {
+			// wait.until(ExpectedConditions.visibilityOfElementLocated(commonPage.LogoutIcon)).click();
+			// wait.until(ExpectedConditions.visibilityOfElementLocated(commonPage.Logout)).click();
+
+			BasePage.click(commonPage.LogoutIcon);
+			BasePage.click(commonPage.Logout);
+			logger.info("Logout");
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	
+	/**
+	 * openURL
+	 *
+	 * @name openURL
+	 * @description open the URL 
+	 * @author Vaibhav Narkhede
+	 * @param  URL ||description: URL which want to open
+	 *                 ||allowedRange:
+	 * @return void ||description:
+	 * @jiraId
+	 */
+	
+	public void openURL(String url) {
+
+		try {
+		driver.get(url);
 
 
-             if (driver.getPageSource().contains("This site can’t be reached")) {
+		if (driver.getPageSource().contains("This site can’t be reached")) {
 
-                    logger.info("URL is not working , Please check with BnD team on ongoing deployment");
-                    try {
-                           throw new HttpException();
-                    } catch (HttpException t) {
-                           logger.error(t.getMessage());
+			logger.info("URL is not working , Please check with BnD team on ongoing deployment");
+			try {
+				throw new HttpException();
+			} catch (HttpException t) {
+				logger.error(t.getMessage());
 
-                    }
+			}
 
-             }
-             }catch(Exception e) {
-                    
-                    throw e;
-                    
-             }
+		}
+		}catch(Exception e) {
+			
+			throw e;
+			
+		}
 
-       }
-       
-       
-       /**
-       * navigateToDashboard
-       *
-       * @name navigateToDashboard
-       * @description Navigate to Dashboard page of Freedom 
-        * @author Vaibhav Narkhede
-       * @param   ||description: 
-        *                 ||allowedRange:
-       * @return void ||description:
-       * @jiraId
-       */
-       
-       public void navigateToDashboard() throws InterruptedException {
-             click(commonPage.navigateToDashboard);
-       }
+	}
+	
+	
+	/**
+	 * navigateToDashboard
+	 *
+	 * @name navigateToDashboard
+	 * @description Navigate to Dashboard page of Freedom 
+	 * @author Vaibhav Narkhede
+	 * @param   ||description: 
+	 *                 ||allowedRange:
+	 * @return void ||description:
+	 * @jiraId
+	 */
+	
+	public void navigateToDashboard() throws InterruptedException {
+		click(commonPage.navigateToDashboard);
+	}
 
-       
-       
-       
-       /**
-       * navigateToWorkOrder
-       *
-       * @name navigateToWorkOrder
-       * @description Navigate to work order page of Freedom 
-        * @author Vaibhav Narkhede
-       * @param   ||description: 
-        *                 ||allowedRange:
-       * @return void ||description:
-       * @jiraId
-       */
-       public void navigateToWorkOrder() throws InterruptedException {
-             click(commonPage.navigateToWorkOrder);
-       }
+	
+	
+	
+	/**
+	 * navigateToWorkOrder
+	 *
+	 * @name navigateToWorkOrder
+	 * @description Navigate to work order page of Freedom 
+	 * @author Vaibhav Narkhede
+	 * @param   ||description: 
+	 *                 ||allowedRange:
+	 * @return void ||description:
+	 * @jiraId
+	 */
+	public void navigateToWorkOrder() throws InterruptedException {
+		click(commonPage.navigateToWorkOrder);
+	}
 
-       
-       
-       
-       /**
-       * navigateToVirtualVessel
-       *
-       * @name navigateToVirtualVessel
-       * @description Navigate to virtual vessel page of Freedom 
-        * @author Vaibhav Narkhede
-       * @param   ||description: 
-        *                 ||allowedRange:
-       * @return void ||description:
-       * @jiraId
-       */
-       
-       public void navigateToVirtualVessel() throws InterruptedException {
+	
+	
+	
+	/**
+	 * navigateToVirtualVessel
+	 *
+	 * @name navigateToVirtualVessel
+	 * @description Navigate to virtual vessel page of Freedom 
+	 * @author Vaibhav Narkhede
+	 * @param   ||description: 
+	 *                 ||allowedRange:
+	 * @return void ||description:
+	 * @jiraId
+	 */
+	
+	public void navigateToVirtualVessel() throws InterruptedException {
 
-             click(commonPage.navigateToVirtualVessel);
-             logger.info("Successfully Navigated to Virtual Vessel");
-       }
+		click(commonPage.navigateToVirtualVessel);
+		logger.info("Successfully Navigated to Virtual Vessel");
+	}
 
 }
-
-
