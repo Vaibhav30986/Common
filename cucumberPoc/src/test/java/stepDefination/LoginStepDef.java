@@ -26,7 +26,6 @@ public class LoginStepDef {
 		
 		System.out.println("First commit");
 		System.out.println("Vaihav commit");
-		System.out.println("Vaibhav committed afyet watching video");
 	    // Write code here that turns the phrase above into concrete actions
 		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "\\driver\\chromedriver.exe");
 		ChromeOptions chromeOptions = new ChromeOptions();
